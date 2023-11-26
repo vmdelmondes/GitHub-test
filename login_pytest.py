@@ -28,10 +28,6 @@ with open('data_base.txt', 'r') as file:
 #comapara se a senha inserida (recebida via arquivo de texto)
 #é igual à senha salva no banco de dados
 
-if compare == hash_value:
-    retorno = True
 
-else:
-    retorno = False
-
-print(retorno)
+def test_answer():
+    assert compare == hash_value
