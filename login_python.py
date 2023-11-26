@@ -6,7 +6,6 @@ import hashlib
 #abre a senha inserida pelo usuário e salva em 'data'
 with open('password.txt', 'r') as file:
     data = file.read()
-    print(data)
 
 #inicia o hash object, cria o hash e salva em hash_value
 hash_object = hashlib.sha256()
