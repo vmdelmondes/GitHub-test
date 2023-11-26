@@ -1,1 +1,1 @@
-# GitHub-test
+Este repositório contém duas branches, uma com um código para teste via python (Branch1) e a outra para teste via pytest (Branch2). Ambos os códigos recebem uma senha do usuário, criptografa e compara com o valor criptografado salvo. O teste é para saber se a senha está correta ou não.
