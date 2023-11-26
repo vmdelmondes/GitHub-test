@@ -24,12 +24,12 @@ with open('data_base.txt', 'r') as file:
 
 
 #comapara se a senha inserida (recebida via arquivo de texto)
-#é igual à senha salva no banco de dados
+#é igual à senha salva no banco de dados e retorna o valor inserido pelo usuário
 
 if compare == hash_value:
-    print(f'Sua senha está correta. Sua senha é: {data}')
+    print(f'Você inseriu a senha "{data}". Ela está correta.')
 
 else:
-    print('sua senha está incorreta. Tente novamente')
+    print(f'Você inseriu a senha "{data}". Ela está incorreta.')
 
 
